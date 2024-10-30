@@ -1,0 +1,26 @@
+{
+  "name": "dnolbon/twig",
+  "type": "library",
+  "description": "Twig php wrapper for wordpress",
+  "keywords": [
+    "Twig"
+  ],
+  "homepage": "https://github.com/dnolbon/Twig",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dnolbon",
+      "email": "support@dnolbon.com",
+      "homepage": "https://dnolbon.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dnolbon\\Twig\\": "src/Dnolbon/Twig"
+    }
+  },
+  "require": {
+    "twig/twig": "~1.0"
+  }
+}

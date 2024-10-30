@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Национальный Банк Республики Беларусь",
+    "country": "BY",
+    "class": "Dnolbon\\Currencies\\Providers\\By\\ByCurrencyProvider",
+    "code": "by_central_bank"
+  },
+  {
+    "name": "Eesti Pank",
+    "country": "EE",
+    "class": "Dnolbon\\Currencies\\Providers\\Ee\\EeCurrencyProvider",
+    "code": "ee_central_bank"
+  },
+  {
+    "name": "European Central Bank",
+    "country": "EU",
+    "class": "Dnolbon\\Currencies\\Providers\\Eu\\EuCurrencyProvider",
+    "code": "eu_central_bank"
+  },
+  {
+    "name": "Lietuvos bankas (LT)",
+    "country": "LT",
+    "class": "Dnolbon\\Currencies\\Providers\\Lt\\LtCurrencyProvider",
+    "code": "lt_central_bank"
+  },
+  {
+    "name": "Latvijas banka",
+    "country": "EE",
+    "class": "Dnolbon\\Currencies\\Providers\\Lv\\LvCurrencyProvider",
+    "code": "lv_central_bank"
+  },
+  {
+    "name": "Центральный банк Российской Федерации",
+    "country": "RU",
+    "class": "Dnolbon\\Currencies\\Providers\\Ru\\CbrCurrencyProvider",
+    "code": "ru_central_bank"
+  },
+  {
+    "name": "ПриватБанк",
+    "country": "UA",
+    "class": "Dnolbon\\Currencies\\Providers\\Ua\\PrivateBankCurrencyProvider",
+    "code": "ua_privat_bank"
+  }
+]

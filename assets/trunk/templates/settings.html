@@ -1,0 +1,24 @@
+<div class="wrap">
+    <h1>Settings</h1>
+    <div class="card">
+        <form method="post">
+            <input type="hidden" name="dnolbon_currencies_wp_action" value="settings"/>
+            <table class="form-table">
+                <tr>
+                    <th scope="row"><label for="bank">Source</label></th>
+                    <td>
+                        <select name="bank" id="bank">
+                            <option value="">---</option>
+                            {% for bank in list %}
+                            <option value="{{ bank.code|e }}"{% if current == bank.code %} selected{% endif %}>{{ bank.name|e }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <p class="submit">
+                <input type="submit" class="button button-primary" value="Save Changes">
+            </p>
+        </form>
+    </div>
+</div>

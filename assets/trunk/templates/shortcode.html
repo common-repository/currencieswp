@@ -1,0 +1,46 @@
+<div class="wrap">
+    <h1>Shortcode</h1>
+    <div class="card">
+        <form method="post">
+            <input type="hidden" name="dnolbon_currencies_wp_action" value="shortcode"/>
+            <table class="form-table">
+                <tr>
+                    <th scope="row"><label for="from">From</label></th>
+                    <td>
+                        <select name="from" id="from">
+                            <option value="">---</option>
+                            {% for currency in list %}
+                            <option value="{{ currency.currency|e }}"{% if currency.currency == from %} selected{% endif %}>{{ currency.currency|e }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><label for="to">To</label></th>
+                    <td>
+                        <select name="to" id="to">
+                            <option value="">---</option>
+                            {% for currency in list %}
+                            <option value="{{ currency.currency|e }}"{% if currency.currency == to %} selected{% endif %}>{{ currency.currency|e }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><label for="to">Decimals</label></th>
+                    <td>
+                        <input type="text" value="{{ decimals|e }}">
+                    </td>
+                </tr>
+            </table>
+            <p class="submit">
+                <input type="submit" class="button button-primary" value="Calculate">
+            </p>
+        </form>
+    </div>
+    {% if (from != '') %}
+    <div class="card">
+        [currencieconvert from={{ from|e }} to={{ to|e }} decimals={{ decimals|e }}]
+    </div>
+    {% endif %}
+</div>

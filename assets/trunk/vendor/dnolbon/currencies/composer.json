@@ -1,0 +1,22 @@
+{
+  "name": "dnolbon/currencies",
+  "type": "library",
+  "description": "Currencies rate",
+  "keywords": [
+    "currencies"
+  ],
+  "homepage": "https://github.com/dnolbon/Currencies",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dnolbon",
+      "email": "dnolbon@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dnolbon\\Currencies\\": "src/Dnolbon/Currencies"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "896f40e8f327a6b0b3d592f7c53080b0",
+    "content-hash": "0cba18de308e87d0f42f672c70bbcd7a",
+    "packages": [
+        {
+            "name": "dnolbon/currencies",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnolbon/Currencies.git",
+                "reference": "a31745feefe637196cb67731a1fe17bf40facf1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnolbon/Currencies/zipball/a31745feefe637196cb67731a1fe17bf40facf1e",
+                "reference": "a31745feefe637196cb67731a1fe17bf40facf1e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dnolbon\\Currencies\\": "src/Dnolbon/Currencies"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dnolbon",
+                    "email": "dnolbon@yandex.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Currencies rate",
+            "homepage": "https://github.com/dnolbon/Currencies",
+            "keywords": [
+                "currencies"
+            ],
+            "time": "2017-01-25 19:53:49"
+        },
+        {
+            "name": "dnolbon/twig",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnolbon/Twig.git",
+                "reference": "b826defaaf53501ba2788bfe8172cda72a45d2a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnolbon/Twig/zipball/b826defaaf53501ba2788bfe8172cda72a45d2a1",
+                "reference": "b826defaaf53501ba2788bfe8172cda72a45d2a1",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dnolbon\\Twig\\": "src/Dnolbon/Twig"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dnolbon",
+                    "email": "support@dnolbon.com",
+                    "homepage": "https://dnolbon.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Twig php wrapper for wordpress",
+            "homepage": "https://github.com/dnolbon/Twig",
+            "keywords": [
+                "twig"
+            ],
+            "time": "2017-02-16 07:29:51"
+        },
+        {
+            "name": "dnolbon/woocommerce",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnolbon/WooCommerce.git",
+                "reference": "f6e811080075bf4b2f57e6264b063c5501bd69cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnolbon/WooCommerce/zipball/f6e811080075bf4b2f57e6264b063c5501bd69cf",
+                "reference": "f6e811080075bf4b2f57e6264b063c5501bd69cf",
+                "shasum": ""
+            },
+            "require": {
+                "dnolbon/wordpress": "v0.0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dnolbon\\WooCommerce\\": "src/Dnolbon/WooCommerce"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dnolbon",
+                    "email": "support@dnolbon.com",
+                    "homepage": "https://dnolbon.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Woocommerce wrapper for wordpress",
+            "homepage": "https://github.com/dnolbon/WooCommerce",
+            "keywords": [
+                "woocommerce",
+                "wordpress"
+            ],
+            "time": "2017-02-16 08:37:43"
+        },
+        {
+            "name": "dnolbon/wordpress",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnolbon/Wordpress.git",
+                "reference": "50dfd441f94d43ce26919bada68cf43b836a589e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnolbon/Wordpress/zipball/50dfd441f94d43ce26919bada68cf43b836a589e",
+                "reference": "50dfd441f94d43ce26919bada68cf43b836a589e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dnolbon\\Wordpress\\": "src/Dnolbon/Wordpress"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dnolbon",
+                    "email": "support@dnolbon.com",
+                    "homepage": "https://dnolbon.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wordpress helper",
+            "homepage": "https://github.com/dnolbon/Wordpress",
+            "keywords": [
+                "currencies"
+            ],
+            "time": "2017-02-15 20:50:20"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "require-dev": {
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.31-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2017-01-11 19:36:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

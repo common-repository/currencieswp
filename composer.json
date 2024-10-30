@@ -1,0 +1,13 @@
+{
+  "require": {
+    "dnolbon/currencies": "^0.0.1",
+    "dnolbon/wordpress": "^0.0.4",
+    "dnolbon/twig": "^0.0.1",
+    "dnolbon/woocommerce": "^0.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dnolbon\\CurrenciesWp\\": "src/Dnolbon/CurrenciesWp"
+    }
+  }
+}

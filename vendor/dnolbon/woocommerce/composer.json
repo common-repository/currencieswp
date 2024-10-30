@@ -1,0 +1,27 @@
+{
+  "name": "dnolbon/woocommerce",
+  "type": "library",
+  "require": {
+    "dnolbon/wordpress": "v0.0.4"
+  },
+  "description": "Woocommerce wrapper for wordpress",
+  "keywords": [
+    "woocommerce",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/dnolbon/WooCommerce",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dnolbon",
+      "email": "support@dnolbon.com",
+      "homepage": "https://dnolbon.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dnolbon\\WooCommerce\\": "src/Dnolbon/WooCommerce"
+    }
+  }
+}
